@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-&r$2g(o@=w1_i%=z-%+4jx67%7%ou(3cy7wo9$60#l7g2et3pd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS=['*']
+ALLOWED_HOSTS=['*',"workclass-job-search-task.herokuapp.com"]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS = True
 # CORS_ALLOWED_ORIGINS = [

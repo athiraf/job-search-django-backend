@@ -28,7 +28,7 @@ class GroupViewSet(viewsets.ModelViewSet):
 
 
 class JobFilter(FilterSet):
-    name = CharFilter(field_name="company", lookup_expr='icontains')
+    company = CharFilter(field_name="company", lookup_expr='icontains')
 
     class Meta:
         model = JobModel
